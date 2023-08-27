@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .outer-cont {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom left, #0040ff 0%, #cc99ff 100%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 2px; /* Added grid-gap for gap between cells */
+    border: 1px solid rgb(57, 57, 57); /* Updated border */
+  }
+  
+  app-board {
+    grid-template-rows: 50px; /* Updated to grid-template-rows */
+    height: 200px;
+  }
+  
+  h1 {
+    text-align: right;
+    font-family: pacifico;
+    padding: 20px 0px;
+    width: 100%;
+    margin-right: 30px;
+    color: white;
+  }
+  
+  button {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: rgb(249, 99, 99);
+    cursor: pointer;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
